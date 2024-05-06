@@ -1,0 +1,27 @@
+/* roundedRectangle.css */
+.rounded-rectangle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1.5em; 
+    background-color: #423189;
+    padding: 1em;
+    box-shadow: 0px 0px 0.3em 0px rgba(0,0,0,0.75);
+    height: 5em;
+}
+
+@media (max-width: 600px) {
+    .rounded-rectangle {
+        height: 2.5em;
+        padding: 0.5em;
+    }
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.svgWhite {
+    --sds-c-icon-color-foreground-default: white;
+}
